@@ -5,7 +5,7 @@ import productRoutes from "./routes/product.js"
 
 import dotenv from "dotenv";
 
-dotenv.config();
+dotenv.config({path: "backend/.env"});
 
 
 const app = express();

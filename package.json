@@ -1,0 +1,11 @@
+{
+  "name": "product-store",
+  "version": "1.0.0",
+  "description": "Full-stack product store app",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "node backend/server.js"
+  },
+  "private": true
+}
